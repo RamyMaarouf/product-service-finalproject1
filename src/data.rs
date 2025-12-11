@@ -5,7 +5,7 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Apple iPhone 17 Pro Max 256GB - Cosmic Orange".to_string(),
+            name: "Apple iPhone 17 Pro Max 256GB - Cosmic Orange ".to_string(),
             price: 1999.99,
             description: "The ultimate mobile experience with A18 Bionic chip, pro-grade camera system, and an all-new Cosmic Orange finish.".to_string(),
             image: "/iphone.png".to_string()
